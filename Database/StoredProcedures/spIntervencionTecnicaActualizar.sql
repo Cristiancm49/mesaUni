@@ -1,7 +1,4 @@
--- =============================================
--- Stored Procedure: spIntervencionTecnicaActualizar
--- Descripción: Actualizar intervención técnica existente (solo si no ha sido revisada)
--- =============================================
+
 
 CREATE OR ALTER PROCEDURE soporte.spIntervencionTecnicaActualizar
     @IdIntervencionTecnica BIGINT,

@@ -1,7 +1,4 @@
--- =============================================
--- Stored Procedure: spIntervencionTecnicaCrear
--- Descripción: Crear intervención técnica con componentes, consumibles y trazabilidad automática
--- =============================================
+
 
 CREATE OR ALTER PROCEDURE soporte.spIntervencionTecnicaCrear
     @IdCaso BIGINT,

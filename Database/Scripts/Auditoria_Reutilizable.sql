@@ -1,12 +1,7 @@
 /*
-    999_Auditoria_Reutilizable.sql
-    --------------------------------------------
+    
     Objetivo:
-    1) Crear schema auditoria
-    2) Crear UNA tabla de auditoria por cada tabla funcional
-       (acceso, catalogo, inventario, soporte)
-    3) Crear procedimientos reutilizables para Insert/Update/Delete
-    4) Crear triggers automaticamente para todas las tablas auditables
+   Crear procedimientos reutilizables para Insert/Update/Delete, Crear triggers automaticamente para todas las tablas auditables
 
     Nota:
     - Este enfoque deja la logica central en procedimientos reutilizables.
@@ -322,18 +317,3 @@ BEGIN
 END;
 
 
-/* ============================================================
-   5) Ejemplo real de como queda una tabla y trigger
-   ============================================================
-
-   Tabla de auditoria del caso:
-   auditoria.soporte_Caso_Audit
-
-   Trigger generado:
-   soporte.trg_AUD_Caso
-
-   Consulta de ejemplo:
-   SELECT TOP 100 *
-   FROM auditoria.soporte_Caso_Audit
-   ORDER BY AuditId DESC;
-*/

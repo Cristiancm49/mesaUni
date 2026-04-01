@@ -1,7 +1,3 @@
--- =============================================
--- Stored Procedure: spEncuestaCalidadCrear
--- Descripción: Crear encuesta de calidad con sus respuestas
--- =============================================
 
 CREATE OR ALTER PROCEDURE soporte.spEncuestaCalidadCrear
     @IdCaso BIGINT,

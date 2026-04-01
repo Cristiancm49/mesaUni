@@ -1,7 +1,4 @@
--- =============================================
--- Stored Procedure: spDashboardEstadisticasCasos
--- Descripción: Obtener estadísticas y métricas para el dashboard de casos
--- =============================================
+
 
 CREATE OR ALTER PROCEDURE soporte.spDashboardEstadisticasCasos
     @FechaDesde DATETIME = NULL,
